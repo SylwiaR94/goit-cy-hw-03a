@@ -13,11 +13,10 @@ describe('User can login to GoIT page', () => {
 
             loginPage.loginUser(useremail,password);
 
+            cy.wait(1000);
             homepage.logout();
-
         });
     });
-
 });
 
 describe('User can login to GoIT page', () => {
@@ -29,6 +28,7 @@ describe('User can login to GoIT page', () => {
 
             loginPage.loginUser(useremail,password);
             
+            cy.wait(1000);
             homepage.logout();
         });
     });
