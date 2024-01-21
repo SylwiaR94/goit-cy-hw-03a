@@ -5,15 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open:chrome": "npx cypress run -b chrome --headed" ,
-<<<<<<< HEAD
     "cypress:open:firefox":"npx cypress run -b firefox --headed" ,
     "cypress:run:chrome":"npx cypress run -b chrome --headed --spec cypress/e2e/pageObjectLoginUser.cy.js",
     "cypress:run:firefox":"npx cypress run -b firefox" ,
-=======
-    "cypress:open:firefox":"npx cypress run -b firefox --headed",
-    "cypress:run:chrome":"npx cypress run -b chrome --headed --spec cypress/e2e/moduł2.cy.js",
-    "cypress:run:firefox":"npx cypress run -b firefox",
->>>>>>> c1dec1d03a7a635e0ae7acbb9215a449b00a1374
     "cypress:run:chrome:simple":"npx cypress run"
   },
   "keywords": [],
