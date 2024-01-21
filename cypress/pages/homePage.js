@@ -4,7 +4,7 @@ class HomePage {
     }
 
     get logOutButton() {
-        return cy.get(':nth-child(8) > .next-bve2vl');
+        return cy.get('button:contains("Log out")');
     }
 
     logout() {
