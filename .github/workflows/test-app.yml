@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Repository Chrome
-        uses: SylwiaR94/goit-cy-hw-03@v3
+        uses: actions/checkout@v4
       
       - name: Install Dependensies Chrome
         uses: npm install
