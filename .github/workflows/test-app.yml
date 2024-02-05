@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository goit-cy-hw-03
-        uses: actions/checkout@v3
+      - name: Checkout Repository Chrome
+        uses: SylwiaR94/goit-cy-hw-03@v3
       
-      - name: Install Dependensies goit-cy-hw-03
+      - name: Install Dependensies Chrome
         uses: npm install
 
-      - name: Run Cypress Tests goit-cy-hw-03
+      - name: Run Cypress Tests Chrome
         uses: npm run cypress:run:chrome
